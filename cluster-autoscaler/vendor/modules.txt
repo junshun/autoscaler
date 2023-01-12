@@ -144,8 +144,6 @@ github.com/cilium/ebpf/internal/btf
 github.com/cilium/ebpf/internal/unix
 # github.com/clusterhq/flocker-go v0.0.0-20160920122132-2b8b7259d313
 github.com/clusterhq/flocker-go
-# github.com/codegangsta/negroni v1.0.0
-## explicit
 # github.com/container-storage-interface/spec v1.3.0
 github.com/container-storage-interface/spec/lib/go/csi
 # github.com/containerd/cgroups v0.0.0-20200531161412-0dbf7f05ba59
@@ -253,6 +251,9 @@ github.com/go-ozzo/ozzo-validation
 github.com/go-ozzo/ozzo-validation/is
 # github.com/godbus/dbus/v5 v5.0.3
 github.com/godbus/dbus/v5
+# github.com/gofrs/uuid v4.3.1+incompatible
+## explicit
+github.com/gofrs/uuid
 # github.com/gogo/protobuf v1.3.2
 github.com/gogo/protobuf/gogoproto
 github.com/gogo/protobuf/proto
@@ -328,6 +329,7 @@ github.com/google/go-querystring/query
 # github.com/google/gofuzz v1.1.0
 github.com/google/gofuzz
 # github.com/google/uuid v1.1.2
+## explicit
 github.com/google/uuid
 # github.com/googleapis/gax-go/v2 v2.0.5
 github.com/googleapis/gax-go/v2
@@ -367,8 +369,6 @@ github.com/gophercloud/gophercloud/openstack/networking/v2/networks
 github.com/gophercloud/gophercloud/openstack/networking/v2/ports
 github.com/gophercloud/gophercloud/openstack/utils
 github.com/gophercloud/gophercloud/pagination
-# github.com/gorilla/context v1.1.1
-## explicit
 # github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 github.com/grpc-ecosystem/go-grpc-prometheus
 # github.com/hashicorp/golang-lru v0.5.1
@@ -480,6 +480,7 @@ github.com/pkg/errors
 # github.com/pmezard/go-difflib v1.0.0
 github.com/pmezard/go-difflib/difflib
 # github.com/prometheus/client_golang v1.7.1
+## explicit
 github.com/prometheus/client_golang/prometheus
 github.com/prometheus/client_golang/prometheus/internal
 github.com/prometheus/client_golang/prometheus/promhttp
@@ -500,7 +501,6 @@ github.com/quobyte/api
 # github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
 github.com/rubiojr/go-vhd/vhd
 # github.com/satori/go.uuid v1.2.0
-## explicit
 github.com/satori/go.uuid
 # github.com/seccomp/libseccomp-golang v0.9.1
 github.com/seccomp/libseccomp-golang
