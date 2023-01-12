@@ -12,13 +12,13 @@ require (
 	github.com/aws/aws-sdk-go v1.38.49
 	github.com/digitalocean/godo v1.27.0
 	github.com/ghodss/yaml v1.0.0
+	github.com/gofrs/uuid v4.0.0+incompatible
 	github.com/golang/mock v1.4.4
 	github.com/google/uuid v1.1.2
 	github.com/jmespath/go-jmespath v0.4.0
 	github.com/json-iterator/go v1.1.11
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
-	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83

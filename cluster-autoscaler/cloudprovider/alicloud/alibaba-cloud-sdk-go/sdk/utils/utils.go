@@ -22,7 +22,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/satori/go.uuid"
+	"github.com/google/uuid"
 	"net/url"
 	"reflect"
 	"strconv"
@@ -37,8 +37,8 @@ var (
 
 // GetUUIDV4 returns uuidHex
 func GetUUIDV4() (uuidHex string) {
-	uuidV4 := uuid.NewV4()
-	uuidHex = hex.EncodeToString(uuidV4.Bytes())
+	uuidV4 := uuid.New().String()
+	uuidHex = hex.EncodeToString([]byte(uuidV4))
 	return
 }
 
