@@ -108,3 +108,5 @@ replace k8s.io/sample-controller => k8s.io/sample-controller v0.24.0
 replace k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.24.0
 
 replace sigs.k8s.io/cloud-provider-azure => sigs.k8s.io/cloud-provider-azure v1.23.2-0.20220120024201-4ea8013baa29
+
+replace github.com/docker/distribution => github.com/docker/distribution v2.8.1+incompatible

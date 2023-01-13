@@ -191,7 +191,7 @@ github.com/davecgh/go-spew/spew
 github.com/digitalocean/godo
 # github.com/dimchansky/utfbom v1.1.1
 github.com/dimchansky/utfbom
-# github.com/docker/distribution v2.8.1+incompatible
+# github.com/docker/distribution v2.8.1+incompatible => github.com/docker/distribution v2.8.1+incompatible
 github.com/docker/distribution/digestset
 github.com/docker/distribution/reference
 # github.com/docker/go-units v0.4.0
@@ -1819,7 +1819,7 @@ k8s.io/utils/trace
 # sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client/pkg/client
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client/proto/client
-# sigs.k8s.io/cloud-provider-azure v1.23.2
+# sigs.k8s.io/cloud-provider-azure v1.23.2 => sigs.k8s.io/cloud-provider-azure v1.23.2-0.20220120024201-4ea8013baa29
 ## explicit
 sigs.k8s.io/cloud-provider-azure/pkg/auth
 sigs.k8s.io/cloud-provider-azure/pkg/azureclients
@@ -1908,3 +1908,5 @@ sigs.k8s.io/yaml
 # k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.24.0
 # k8s.io/sample-controller => k8s.io/sample-controller v0.24.0
 # k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.24.0
+# sigs.k8s.io/cloud-provider-azure => sigs.k8s.io/cloud-provider-azure v1.23.2-0.20220120024201-4ea8013baa29
+# github.com/docker/distribution => github.com/docker/distribution v2.8.1+incompatible
